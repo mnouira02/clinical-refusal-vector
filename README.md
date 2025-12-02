@@ -53,7 +53,7 @@ Our technical analysis identifies a phase transition in model behavior. Below is
 
 ### Setup
 ```bash
-git clone [https://github.com/mnouira02/clinical-refusal-vector.git](https://github.com/mnouira02/clinical-refusal-vector.git)
+git clone https://github.com/mnouira02/clinical-refusal-vector.git
 cd clinical-refusal-vector
 pip install torch transformers accelerate bitsandbytes streamlit pandas altair scipy
 ```
