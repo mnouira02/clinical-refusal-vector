@@ -1,0 +1,26 @@
+# 1. Environment and Python Artifacts
+venv/
+env/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# 2. Large Model Weights (Generic)
+*.safetensors
+*.bin
+*.ckpt
+
+# 3. PyTorch Files (With Exception)
+*.pt
+!veritas_magnet.pt
+
+# 4. HuggingFace & Caching
+huggingface/
+.huggingface/
+.cache/
+models/
+
+# 5. Data & Outputs
+data/
+outputs/
+logs/

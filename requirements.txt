@@ -1,0 +1,9 @@
+torch
+transformers
+accelerate==0.26.0
+bitsandbytes
+scipy
+numpy
+streamlit
+pandas
+altair
