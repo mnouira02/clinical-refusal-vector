@@ -15,8 +15,7 @@ In scenarios like OCR correction for medical prescriptions, standard RLHF-tuned 
 * **Real-time Ablation:** Dynamically adjust the steering coefficient ($\alpha$) and injection layer ($L$) to find the "Safety Frontier".
 
 ### 🎥 System Demo
-https://github.com/user-attachments/assets/crv_demo.mp4
-*(Note: After pushing, GitHub often renders small MP4s automatically, or you can link it)*
+[https://github.com/mnouira02/clinical-refusal-vector/blob/main/assets/crv_demo.mp4](https://github.com/mnouira02/clinical-refusal-vector/blob/main/assets/crv_demo.mp4)
 
 ## 3. Methodology
 
