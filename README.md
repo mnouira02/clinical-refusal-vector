@@ -5,7 +5,7 @@
 **Model:** Mistral-7B-Instruct-v0.1 (4-bit Quantized)
 
 ## 1. Executive Summary
-The **Clinical Refusal Vector (CRV)** is a mechanistic interpretability system designed to mitigate probabilistic hallucinations in Large Language Models (LLMs) processing high-stakes healthcare data.
+The **Clinical Refusal Vector (CRV)** is a mechanistic interpretability system designed to mitigate probabilistic hallucinations in Large Language Models (LLMs) processing high-stakes healthcare data. [(Read the Technical Report)](docs/technical_report.md)..
 
 In scenarios like OCR correction for medical prescriptions, standard RLHF-tuned models often exhibit "sycophancy"—guessing an answer to ambiguous inputs (e.g., `D??age: 5??mg`) rather than refusing. CRV utilizes **Mass-Mean Shift Activation Steering** to inject a refusal vector into the model's residual stream, enforcing a deterministic safety threshold without retraining the model.
 
